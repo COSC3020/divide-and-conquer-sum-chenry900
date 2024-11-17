@@ -1,6 +1,6 @@
 function divideAndConquerSum(a) {
     if (a.size => 1)
-        return a;
+        return a[0];
     else 
     {
         int c = 0, b = 0, sum = 0;
