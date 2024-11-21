@@ -9,8 +9,8 @@ function divideSum(a) {
         return 0;
     if (a.length == 2)
     {
-        var firsthalf = a.slice(0,0);
-        var secondhalf = a.slice(1,1);
+        var firsthalf = a.slice(0,1);
+        var secondhalf = a.slice(1,2);
         total = divideSum(firsthalf) + divideSum(secondhalf);
         return total;
     }
@@ -19,7 +19,7 @@ function divideSum(a) {
         var b = Math.floor(a.length / 3);
         var first = a.slice(0, b);
         var second = a.slice(b, (b + b));
-        var last = a.slice((b + b), (a.length - 1));
+        var last = a.slice((b + b), a.length);
         total = divideSum(first) + divideSum(second) + divideSum(last);
         return total;
     }
