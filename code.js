@@ -5,8 +5,15 @@ function divideAndConquerSum(a) {
 function divideSum(a) {
     if (a.length == 1)
         return a[0];
-    else if (a.length == 0)
+    if (a.length == 0)
         return 0;
+    if (a.length == 2)
+    {
+        var firsthalf = a.slice(0,0);
+        var secondhalf = a.slice(1,1);
+        total = divideSum(firsthalf) + divideSum(secondhalf);
+        return total;
+    }
     else {
         var total = 0;
         var b = Math.floor(a.length / 3);
