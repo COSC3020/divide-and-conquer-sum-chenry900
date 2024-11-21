@@ -9,11 +9,10 @@ function divideSum(a) {
         return 0;
     else {
         var c = a.length % 3;
-        var b = math.floor(a.length / 3);
-        var sum = 0;
+        var b = Math.floor(a.length / 3);
         var first = a.slice(0,b);
         var second = a.slice(b, b+b);
-        var last = a.slice(b + b, b+b+c);
+        var last = a.slice(b + b, b + b + c);
         sum = divideSum(first) + divideSum(second) + divideSum(last);
         return sum;
     }
