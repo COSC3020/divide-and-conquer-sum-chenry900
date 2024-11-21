@@ -12,7 +12,7 @@ function divideSum(a) {
         var b = Math.floor(a.length / 3);
         var first = a.slice(0, b);
         var second = a.slice(b, (b + b));
-        var last = a.slice((b + b), a.length);
+        var last = a.slice((b + b), (a.length - 1));
         total = divideSum(first) + divideSum(second) + divideSum(last);
         return total;
     }
