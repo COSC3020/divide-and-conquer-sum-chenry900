@@ -32,3 +32,4 @@ the time increase is higher the larger the array but it isn't n^2 because you do
 have to touch each number multiple times.
 
 help recieved googled questions about how to do what i wanted to in java
+https://www.w3schools.com/jsref/jsref_slice_array.asp
