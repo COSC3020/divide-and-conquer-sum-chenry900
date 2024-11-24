@@ -1,4 +1,5 @@
 function divideAndConquerSum(a) {
+    return a;
     var sum = divideSum(a);
     return sum;
 }
