@@ -25,3 +25,11 @@ and solve it as we did in the lectures. Give the final $\Theta$ complexity.
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+The runtime of the algoithm would be $O(nlogn)$ becuase the number of times you have
+to go through the recursive call is based on how large n is and when you split the 
+array you get $logbase2(n)$ so it has to be $O(nlogn)$.
+
+help recieved googled questions about how to do what i wanted to in java
+https://www.w3schools.com/jsref/jsref_slice_array.asp
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
