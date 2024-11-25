@@ -26,10 +26,9 @@ and solve it as we did in the lectures. Give the final $\Theta$ complexity.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
-The runtime of the algoithm would be %O(nlogn)$ becuase as you increase the size
-of the array it would need to recursively call the function to split it more so
-the time increase is higher the larger the array but it isn't n^2 because you don't
-have to touch each number multiple times.
+The runtime of the algoithm would be $O(nlogn)$ becuase the number of times you have
+to go through the recursive call is based on how large n is and when you split the 
+array you get $logbase2(n)$ so it has to be $O(nlogn)$.
 
 help recieved googled questions about how to do what i wanted to in java
 https://www.w3schools.com/jsref/jsref_slice_array.asp
