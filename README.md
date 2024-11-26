@@ -27,8 +27,11 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
 The runtime of the algoithm would be $O(nlogn)$ becuase the number of times you have
-to go through the recursive call is based on how large n is and when you split the 
-array you get $logbase2(n)$ so it has to be $O(nlogn)$.
+to go through the recursive call is based on how large n is. Whent the array is aplit its
+half the size of the original array then half the size of that until its at the base then adds
+it all back to the total. So since you deal with ever decreasing sizes of n the time it takes is
+$logbase2(n)$ so if you add in that you still have to add all the numbers together you get n time
+so the time together is $O(nlogn)$ time.
 
 help recieved googled questions about how to do what i wanted to in java
 https://www.w3schools.com/jsref/jsref_slice_array.asp
