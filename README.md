@@ -25,3 +25,10 @@ and solve it as we did in the lectures. Give the final $\Theta$ complexity.
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+The run time would be 3T(n/3) + n because you have a recursive call of divideSum 3 times
+that splits the array into 3 parts each time so you get 3T(n/3). You get the + n because you still have to add every number into the sum so if you solve it you get O(nlogn).
+
+help recieved googled questions about how to do what i wanted to in java
+https://www.w3schools.com/jsref/jsref_slice_array.asp
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
